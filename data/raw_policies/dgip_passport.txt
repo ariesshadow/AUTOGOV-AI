@@ -1,0 +1,24 @@
+DEPARTMENT: Directorate General of Immigration & Passports (DGIP)
+SERVICE: Machine Readable Passport (MRP) / E-Passport Renewal
+
+ELIGIBILITY CRITERIA:
+- Pakistani citizen holding an expired or expiring Passport.
+- Valid CNIC or NICOP required for applicants aged 18 and above.
+
+REQUIRED DOCUMENTS FOR RENEWAL:
+1. Original CNIC / Smart Card / NICOP with 1 photocopy.
+2. Existing Original Passport with 1 photocopy of the first two pages.
+3. Bank Fee Payment Challan or e-Payment digital receipt.
+4. No Objection Certificate (NOC) for government employees.
+
+FEE STRUCTURE & PROCESSING TIME (5-Year / 36-Page Passport):
+- Normal Processing: PKR 4,500 (Processing time: 15 to 21 working days)
+- Urgent Processing: PKR 7,500 (Processing time: 5 working days)
+- Fast-Track Processing: PKR 12,500 (Processing time: 2 working days)
+
+FEE STRUCTURE & PROCESSING TIME (10-Year / 36-Page Passport):
+- Normal Processing: PKR 6,700 (Processing time: 15 to 21 working days)
+- Urgent Processing: PKR 11,200 (Processing time: 5 working days)
+
+OFFICIAL PORTAL: https://onlinemrp.dgip.gov.pk
+POLICY NOTES: Physical appearance is required at the nearest Passport Office or Embassy for biometric and photograph capture unless applying via the online portal for renewal without photo changes.

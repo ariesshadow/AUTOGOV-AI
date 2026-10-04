@@ -1,0 +1,15 @@
+# Environment variables (API Keys)
+.env
+
+# Python Cache
+__pycache__/
+*.py[c|o]
+.pytest_cache/
+
+# Vector DB & Local Storage (Optional, keep if you want judges to rebuild easily)
+*.log
+*.pdf
+
+# OS junk
+.DS_Store
+Thumbs.db

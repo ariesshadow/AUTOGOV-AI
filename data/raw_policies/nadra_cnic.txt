@@ -1,0 +1,20 @@
+DEPARTMENT: National Database & Registration Authority (NADRA)
+SERVICE: CNIC Renewal & Smart Card Issuance
+
+ELIGIBILITY CRITERIA:
+- Pakistani citizen holding an expired or expiring CNIC / Smart Card.
+- Minimum age 18 years.
+
+REQUIRED DOCUMENTS FOR RENEWAL:
+1. Original expired CNIC or CNIC copy.
+2. Photocopy of Father's or Spouse's CNIC.
+3. Proof of address (Utility bill or Domicile if address is changed).
+4. Biometric verification at NADRA e-Sahulat or counter.
+
+FEE STRUCTURE & PROCESSING TIME:
+- Normal Processing: PKR 750 (Processing time: 15 to 30 working days)
+- Urgent Processing: PKR 1500 (Processing time: 7 to 10 working days)
+- Executive Processing: PKR 2500 (Processing time: 2 to 5 working days)
+
+OFFICIAL PORTAL: https://id.nadra.gov.pk
+POLICY NOTES: Standard CNIC renewal requires valid identity verification and updated address details.

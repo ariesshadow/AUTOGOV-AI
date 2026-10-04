@@ -1,0 +1,21 @@
+DEPARTMENT: Federal Board of Revenue (FBR)
+SERVICE: National Tax Number (NTN) Registration & Active Taxpayer List (ATL)
+
+ELIGIBILITY CRITERIA:
+- Any Pakistani citizen with a valid CNIC.
+- Salaried individuals, business owners, or sole proprietors operating in Pakistan.
+
+REQUIRED DOCUMENTS FOR NTN REGISTRATION:
+1. Valid CNIC / Smart Card copy.
+2. Active mobile phone number registered under applicant's own CNIC.
+3. Personal email address.
+4. Paid electricity or gas utility bill of residential or business premises (not older than 3 months).
+5. Business letterhead and tenancy agreement / property ownership proof (if registering a business NTN).
+
+FEE STRUCTURE & PROCESSING TIME:
+- Official Government Registration Fee: PKR 0 (Free of cost on IRIS portal)
+- NTN Allotment Processing Time: Instant to 24 hours online
+- ATL Inclusion: Updated weekly upon filing Income Tax Return
+
+OFFICIAL PORTAL: https://iris.fbr.gov.pk
+POLICY NOTES: NTN registration is completely free of charge on the official FBR IRIS portal. Filing tax returns annually maintains Active Taxpayer Status (ATL), reducing withholding tax rates across banking and asset transactions.
