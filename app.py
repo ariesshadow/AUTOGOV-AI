@@ -223,19 +223,20 @@ with col1:
     st.markdown(f"<h3 style='color:#38bdf8; margin-bottom: 0.2rem;'>{labels['step1_title']}</h3>", unsafe_allow_html=True)
     st.caption(labels["step1_desc"])
     
-    full_name = st.text_input(labels["full_name"], placeholder="e.g. Om e Kalsoom")
-    cnic_number = st.text_input(labels["cnic"], placeholder="e.g. 34101-9850325-2")
+    # Fully cleared input fields (no hardcoded defaults)
+    full_name = st.text_input(labels["full_name"], value="", placeholder="e.g. Ali Ahmed")
+    cnic_number = st.text_input(labels["cnic"], value="", placeholder="e.g. 35202-1234567-1")
     
     sub_col1, sub_col2 = st.columns(2)
     with sub_col1:
-        father_name = st.text_input(labels["father"], placeholder="e.g. Muhammad Murad Khan")
-        city = st.text_input(labels["city"], placeholder="e.g. Gujranwala")
+        father_name = st.text_input(labels["father"], value="", placeholder="e.g. Muhammad Usman")
+        city = st.text_input(labels["city"], value="", placeholder="e.g. Lahore")
     with sub_col2:
-        dob = st.text_input(labels["dob"], placeholder="YYYY-MM-DD")
-        phone = st.text_input(labels["phone"], placeholder="e.g. 0300-1234567")
+        dob = st.text_input(labels["dob"], value="", placeholder="YYYY-MM-DD")
+        phone = st.text_input(labels["phone"], value="", placeholder="e.g. 0300-1234567")
 
-    email = st.text_input(labels["email"], placeholder="e.g. applicant@example.com")
-    address = st.text_input(labels["address"], placeholder="e.g. Kashmir Road, Gujranwala")
+    email = st.text_input(labels["email"], value="", placeholder="e.g. applicant@example.com")
+    address = st.text_input(labels["address"], value="", placeholder="e.g. Main Boulevard, Gulberg")
     
     st.markdown("---")
     st.markdown(f"<h5 style='color:#a7f3d0;'>{labels['doc_attach']}</h5>", unsafe_allow_html=True)
