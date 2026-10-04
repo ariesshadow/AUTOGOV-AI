@@ -19,6 +19,6 @@ AutoGov AI is an agentic AI assistant designed to simplify Pakistani public serv
 ### Clone Repository & Install Dependencies
 
 ```bash
-git clone [https://github.com/ariesshadow/AUTOGOV-AI.git](https://github.com/ariesshadow/AUTOGOV-AI.git)
-cd AUTOGOV---AI-
+git clone https://github.com/ariesshadow/AUTOGOV-AI.git
+cd AUTOGOV-AI
 pip install -r requirements.txt
