@@ -223,7 +223,7 @@ with col1:
     st.markdown(f"<h3 style='color:#38bdf8; margin-bottom: 0.2rem;'>{labels['step1_title']}</h3>", unsafe_allow_html=True)
     st.caption(labels["step1_desc"])
     
-    # Fully cleared input fields (no hardcoded defaults)
+    # Fully cleared input fields
     full_name = st.text_input(labels["full_name"], value="", placeholder="e.g. Ali Ahmed")
     cnic_number = st.text_input(labels["cnic"], value="", placeholder="e.g. 35202-1234567-1")
     
@@ -325,13 +325,25 @@ with col2:
             st.toast("Policy retrieved and verified!", icon="🎯")
 
     if "rag_verification" in st.session_state:
+        rag_data = st.session_state["rag_verification"]
+        
         st.markdown("<h5 style='color:#93c5fd; margin-top:1rem;'>Verified Policy Analysis:</h5>", unsafe_allow_html=True)
-        st.json(st.session_state["rag_verification"])
+        
+        # User-Friendly Summary Card
+        fee = rag_data.get("official_fee_pkr", "N/A")
+        days = rag_data.get("processing_days", "N/A")
+        status = str(rag_data.get("verification_status", "verified")).upper()
+        
+        st.info(f"✅ **Status:** {status} | 💵 **Official Fee:** PKR {fee} | ⏱️ **Processing Time:** {days} Days")
+        
+        # Collapsible Technical Agent Trace for Hackathon Judges
+        with st.expander("🔍 View Technical Agent Trace (RAG JSON)"):
+            st.json(rag_data)
 
         payload = {
             "user_profile": st.session_state["profile"],
             "service_request": {"department": service_dept, "action": f"{service_dept}_APPLICATION"},
-            "rag_verification": st.session_state["rag_verification"]
+            "rag_verification": rag_data
         }
 
         pdf_bytes = generate_pdf_form(payload)
